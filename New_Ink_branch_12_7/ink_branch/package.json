@@ -1,0 +1,28 @@
+{
+  "name": "ink",
+  "version": "1.0.0",
+  "description": "ink",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-watch": "^4.3.10"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-watch": "^4.3.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucketdc-ssh.jpmchase.net:7999/cdg/ink.git"
+  },
+  "keywords": [
+    "ink"
+  ],
+  "author": "ink",
+  "license": "ISC"
+}

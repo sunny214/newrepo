@@ -1,0 +1,89 @@
+/*font var*/
+.main_header {
+  background: #fbfbfa;
+  z-index: 1000;
+  border-bottom: 2px solid #ebe9e8; }
+  .main_header .ink_heading_bdr {
+    border-bottom: 5px solid #0f2d51; }
+    .main_header .ink_heading_bdr .ink_heading {
+      color: #0f2d51;
+      font-size: 27px;
+      font-weight: 800;
+      margin-top: 8px;
+      margin-bottom: 5px; }
+    .main_header .ink_heading_bdr p {
+      color: #d1d1d1;
+      font-size: 16px;
+      line-height: 27px; }
+    .main_header .ink_heading_bdr img {
+      width: 183px; }
+  .main_header .navigation {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    float: none;
+    justify-content: center; }
+    .main_header .navigation li {
+      display: inline-block; }
+      .main_header .navigation li a {
+        position: relative;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        font-family: Tiempos, Georgia, Times, Times New Roman, serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        color: #555559;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 10px;
+        margin-left: 10px; }
+        .main_header .navigation li a:after {
+          content: "|";
+          position: absolute;
+          right: -15px;
+          top: 8px;
+          font-family: "OpenSans-Regular";
+          font-size: 15px;
+          color: #b3b1b1; }
+        .main_header .navigation li a:hover {
+          background: none;
+          color: #337ab7;
+          border-bottom: 3px solid #337ab7; }
+      .main_header .navigation li.search input {
+        width: 50px;
+        border: none;
+        color: transparent;
+        outline: none; }
+        .main_header .navigation li.search input:hover {
+          background: #eee; }
+      .main_header .navigation li.search a:hover input {
+        background: #eee; }
+      .main_header .navigation li:last-child a:after {
+        content: ''; }
+      .main_header .navigation li.active a {
+        background: none;
+        color: #59aadd;
+        border-bottom: 3px solid #59aadd;
+        font-family: "OpenSans-Regular";
+        font-size: 15px; }
+        .main_header .navigation li.active a:after {
+          color: #59aadd; }
+  .main_header.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    left: 0px;
+    right: 0px; }
+    .main_header.sticky .ink_heading_bdr {
+      display: none; }
+    .main_header.sticky .container {
+      position: relative; }
+      .main_header.sticky .container .nav_head {
+        display: block;
+        position: absolute;
+        margin: 0;
+        left: 0;
+        font-weight: bold;
+        color: #0f2d51; }
